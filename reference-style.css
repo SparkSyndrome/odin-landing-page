@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+h6 {
+  color: white;
+  font-weight: 400;
+}
+
+.signup-button,
+.call-to-action {
+  background-color: #3882f6;
+}
+
+.header-link-text,
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  padding-bottom: 100px;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  padding-bottom: 100px;
+}
+
+.hero-text-and-button {
+  text-align: left;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  padding: 0 200px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-attribution {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.product-signup-container {
+  display: flex;
+  justify-content: center;
+}
