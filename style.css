@@ -50,6 +50,23 @@ h4 {
   font-size: 36px;
   font-style: italic;
   font-weight: 100;
+  color: #1f2937;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 50px;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+a {
+  color: white;
 }
 
 .first-section {
@@ -140,13 +157,50 @@ h4 {
 .card-text {
   width: 150px;
   text-align: center;
-  color: #6e6e70;
+  color: rgb(98, 105, 116);
 }
-
-/* CURRENTLY WORKING ON */
 
 .third-section {
   background-color: #e5e7eb;
   text-align: center;
   padding: 140px 300px 100px;
+}
+
+/* CURRENTLY WORKING ON */
+
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  padding: 55px 120px;
+  border-radius: 8px;
+  margin: 100px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#the-call {
+  color: white;
+}
+
+.action-call-text {
+  color: rgb(206, 217, 237);
+  font-weight: 300;
+}
+
+#blue-box-sign-up {
+  border: 2px white solid;
+  margin-left: 150px;
 }
