@@ -162,3 +162,18 @@ img {
 .call-section > button {
   border: #f9faf8 solid 2px;
 }
+
+footer {
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+
+footer > a:link,
+footer > a:visited,
+footer > a:hover,
+footer > a:active {
+  text-decoration: underline;
+}
