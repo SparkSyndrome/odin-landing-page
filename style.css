@@ -80,7 +80,7 @@ button {
 }
 
 img {
-  width: 500px;
+  width: 450px;
   height: 250px;
 }
 
@@ -101,6 +101,7 @@ img {
 
 .boxes {
   display: flex;
+  margin-bottom: 1em;
 }
 
 .box {
@@ -115,14 +116,14 @@ img {
 .blue-box {
   width: 150px;
   height: 150px;
-  border: #3882f6 solid 4.10px;
+  border: #3882f6 solid 3.5px;
   border-radius: 12px;
   margin-bottom: .5em;
 }
 
 .quote-section {
   background-color: #e5e7eb;
-  padding: 7em 20em;
+  padding: 7em 14.5em;
 }
 
 .quote-section > h4 {
@@ -134,9 +135,9 @@ img {
 
 .quote-section > h3 {
   text-align: right;
-  padding-right: 1.25em;
-  font-size: 23px;
-  font-weight: 900;
+  font-size: 20px;
+  padding-right: 2em;
+  font-weight: 700;
 }
 
 .call-section {
@@ -151,7 +152,7 @@ img {
 
 .call-text > h3 {
   color: #f9faf8;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -164,16 +165,17 @@ img {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 40px;
-  text-align: center;
-  font-size: 18px;
   font-weight: 300;
   color: #e5e7eb;
 }
 
-footer > a:link,
-footer > a:visited,
-footer > a:hover,
-footer > a:active {
+footer > p > a:link,
+footer > p > a:visited,
+footer > p > a:hover,
+footer > p > a:active {
   text-decoration: underline;
 }
