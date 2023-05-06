@@ -15,7 +15,7 @@ footer {
 }
 
 header {
-  padding: 1em 10em;
+  padding: 1em 30em;
 }
 
 .logo-and-links {
@@ -123,7 +123,7 @@ img {
 
 .quote-section {
   background-color: #e5e7eb;
-  padding: 7em 14.5em;
+  padding: 7em 55em;
 }
 
 .quote-section > h4 {
@@ -147,7 +147,7 @@ img {
   align-items: center;
   padding: 3em 8em;
   border-radius: 8px;
-  margin: 5em 10em;
+  margin: 5em 33em;
 }
 
 .call-text > h3 {
